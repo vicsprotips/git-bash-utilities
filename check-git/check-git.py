@@ -5,10 +5,11 @@
 import os, sys, subprocess
 
 queue = []
+print(f"Checking local repos under {sys.argv[1]}")
 for root, dirs, files in os.walk(sys.argv[1], topdown=False):
     for d in dirs:
         if d == '.git':
-            print(root, d)
+            print(f"{root}")
             cmd = f'cd {root}; git -c color.status=always status'
             returned_output = subprocess.check_output(cmd,shell=True).decode('utf-8')
             if 'nothing to commit' not in returned_output:
