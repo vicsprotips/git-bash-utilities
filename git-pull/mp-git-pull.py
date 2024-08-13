@@ -1,3 +1,4 @@
+# https://vicsprotips.com
 # git fetch (multi-process): search for .git folders from given root and pull origin for each
 # much faster than non-mp version
 # usage: python3 gf.py ~/git

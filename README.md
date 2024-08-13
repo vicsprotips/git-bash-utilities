@@ -1,4 +1,6 @@
 # git-bash-utils
+Visit https://vicsprotips.com/boost-your-git-workflow-with-python-and-bash/ for the complete walkthrough.
+
 Helpful scripts to check all local repos for updates and outstanding commits
 
 Clone the repo and then add the following aliases to your ~/.bashrc
