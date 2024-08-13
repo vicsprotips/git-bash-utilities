@@ -1,3 +1,4 @@
+# https://vicsprotips.com
 # check git: search for .git folders from given root and notify you if you have changes to commit
 # usage: python3 check-git.py ~/git
 # Vic Baker
